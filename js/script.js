@@ -44,7 +44,10 @@ Vue.createApp({
             } else {
                this.currentIndex = 0;
             }
-        }
+        },
+        imageselected(index) {
+            this.currentIndex = index;
+          }
     
     }
 }).mount('#app');
